@@ -20,5 +20,6 @@ Route::get('teste', 'UserController@teste');
 Route::get('hello', 'UserController@hello');
 Route::get('cadastro','UserController@cadastro');
 Route::get('sobre','UserController@sobre');
+Route::post('insert','UserController@insert');
 
 

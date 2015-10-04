@@ -1,4 +1,4 @@
-
+@extends('layouts/app')
 <!DOCTYPE html>
 <html>
     <head>
@@ -33,6 +33,7 @@
 
             .title {
                 font-size: 96px;
+                color:white;
             }
         </style>
     </head>
@@ -44,3 +45,4 @@
         </div>
     </body>
 </html>
+@stop
