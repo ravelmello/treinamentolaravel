@@ -15,7 +15,10 @@ Route::get('welcome', function(){
     return view('welcome');
 });
 
-Route::get('phpeste', 'UserController@cadastro');
+//Route::get('phpeste', 'UserController@cadastro');
 Route::get('teste', 'UserController@teste');
+Route::get('hello', 'UserController@hello');
+Route::get('cadastro','UserController@cadastro');
+Route::get('sobre','UserController@sobre');
 
 
