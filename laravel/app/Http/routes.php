@@ -11,6 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('welcome', function(){
     return view('welcome');
 });
+
+Route::get('phpeste', 'UserController@cadastro');
+Route::get('teste', 'UserController@teste');
+
+
